@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hacker Chat by Francis Gulotta</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      /* Slideshow styles */
+      .remark-slide .remark-slide-content {
+        font-family: museo-sans, sans-serif;
+        padding: 1em 3em 1em 3em;
+        font-size: 2em;
+      }
+      .remark-slide-content ul {
+        line-height: 1.4em;
+      }
+      .cover {
+        background-size: cover !important;
+      }
+      .remark-slide-content a, .remark-slide-content a:visited {
+        color: inherit;
+      }
+      h1{
+        text-align: center;
+        display: block;
+        font-weight: normal;
+      }
+      .red {
+        background: #c03f21;
+        color: white;
+      }
+      .blue {
+        background: #285166;
+        color: white;
+      }
+      .grey {
+        background: #505057;
+        color: white;
+      }
+      .large {
+        font-size: 2em;
+        /*line-height: 1.5em;*/
+      }
+      .remark-slide-number {
+        font-size: 0.5em;
+      }
+      .upcase {
+        text-transform: uppercase;
+      }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+        font-size: 0.5em;
+        line-height: 1.2em;
+      }
+      .hero {
+        position: absolute;
+        font-size: 1.5em;
+        text-align: center;
+        display: block;
+        top: 40%;
+        left:0;
+        right:0;
+      }
+      .fade {
+        opacity: 0.6;
+      }
+      .highlight {
+        font-size: 1.1em;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center middle red upcase
+name: HackerChat
+
+#Hacker Chat
+
+---
+class: blue
+name: me
+
+#Hi I'm Francis
+
+.center[I like Programming, Robots, &amp; Education]
+
+I muse [@reconbot](https://twitter.com/reconbot)</br>
+I write at [roborooter.com](http://www.roborooter.com/)</br>
+I work at [wizarddevelopment.com](http://www.wizarddevelopment.com/)
+
+---
+class: blue
+
+#Agenda
+
+1. MESH Networks
+2. Hacker Chat
+3. Demo
+
+---
+class: blue cover
+background-image: url(mesh.jpg)
+#MESH
+### noun
+
+1. material made of a network of wire or thread.
+"mesh for fishing nets"
+
+2. an interlaced structure.
+"cell fragments that agglutinate and form intricate meshes"
+
+.footnote[Oras Al-Kubaisi https://secure.flickr.com/photos/orasik/5211485464]
+
+---
+class: blue
+
+#WIFI Mesh Networks
+
+ - A few cities have them
+ - IP networks -> Internet
+ - Stationary Access points (wifi)
+ - Expensive Backhaul Mesh (5.8ghz)
+ - Lots of maintenance
+ - Lots of routing protocalls, hardware, legacy software, fcc, local store owners .fade[, angry neighbors, why are you on my roof?, is that a IED? I'm calling the cops!]
+
+
+.footnote[
+http://gowasabi.net/content/how-wasabinet-works <br>
+http://urbanomnibus.net/2013/09/local-connections-the-red-hook-wifi-project/
+]
+---
+background-image: url(gowasbi-diagram.jpg)
+---
+name: centralized
+class: red middle
+
+# Still a Centralized Network
+
+---
+class: red middle
+# Using Centralized Apps
+
+---
+class: middle
+
+# The Dream
+---
+class:
+# The Dream
+
+.hero[Decentalized .highlight[behaviors]<br>served by decentalized .highlight[apps] <br>over decentralized .highlight[networks].]
+
+---
+class: blue
+# Behaviors
+
+- Chatting (irc, gtalk, twitter, WhatsApp)
+- Long Form Messages (email, blogs)
+- Media Sharing (photos, music, video)
+- Local Human Discovery (Bars, Tinder, Foursquare)
+
+---
+class: grey
+
+# Apps
+
+- Bitcoin, Namecoin, Zeocoin - All use irc =(
+- Bittorrent with DHT (local peer discovery, local peer priority)
+- Gnutella/Kazza (connet to anybody, each node is the same)
+- Darknets (tor, i2p, freenet, WASTE)
+- Bittorrent chat (announced)
+
+---
+class: red
+# Networks
+ - Internet (primarily centralized)
+ - Cell (centralized)
+ - Bluetooth/BLE (centralized and tiny)
+ - Lan (centalized, but privatly owned)
+ - NFC (decentralized but very low range)
+ - GoTenna (not announced, BLE+phone?)
+ - XBEE (centalized but not for long)
+---
+background-image: url(gotenna.png)
+
+---
+class: red middle
+# XBEE
+---
+background-image: url(xbee.jpg)
+---
+class: red
+# XBEE
+
+- Supports Ad Hoc Mesh Network
+- Currently centralized but firmware is coming to remove this from lightbulb manufactures (seriously)
+- smart cheap little chips
+- &lt;$50 for device and usb)
+- Speaks Serial (node-serialport)
+---
+background-image: url(xbee-mesh.jpg)
+
+.footnote[http://xbee.wikispaces.com/MESH]
+---
+class: blue
+# Hacker Chat
+
+- WhatsApp for Hackers (I've never used WhatsApp)
+- Use XBEE as a proof of concept network
+- Use Node to power it
+- Peer Discovery
+- Peer to Peer Chat
+- Broadcast Chat
+
+---
+class: red
+# Wish: Hacker Email
+
+- Email that is very delay tolerant (sends when you're in range of other people)
+- Namecoin is a distributed cryptographically secure hash table, could be used for username registration, a "first contact" cost, and public and private key communication
+- A truly ad hoc decentralized hardware network
+
+</textarea>
+    <script src="remark-0.6.0.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
