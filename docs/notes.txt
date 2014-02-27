@@ -4,3 +4,8 @@ https://news.ycombinator.com/user?id=lrem
 https://news.ycombinator.com/item?id=7265076
 
 http://gowasabi.net/content/how-wasabinet-works
+http://www.ladyada.net/make/xbee/download.html
+http://www.digi.com/support/productdetail?pid=3352&osvid=57&type=utilities
+http://www.digi.com/products/wireless-wired-embedded-solutions/zigbee-rf-modules/zigbee-mesh-module/xbee-zb-module#docs
+http://ftp1.digi.com/support/documentation/90002168_A.pdf
+http://scholar.google.com/scholar?hl=en&q=xbee&btnG=&as_sdt=1%2C33&as_sdtp=
