@@ -1,4 +1,6 @@
 # Hacker Chat
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/reconbot/hackerchat.svg)](https://greenkeeper.io/)
 The WhatsApp for hackers.
 
 ## Todo
