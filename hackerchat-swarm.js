@@ -57,6 +57,9 @@ class SessionManager {
   }
 
   write(data) {
+    if (this.sessions.size === 0) {
+      console.log('Nobody is here, I still love you though')
+    }
     for (const connection of this.sessions) {
       connection.write(data)
     }
