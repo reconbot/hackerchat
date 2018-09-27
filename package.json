@@ -1,6 +1,6 @@
 {
   "name": "hackerchat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A distributed chat client",
   "repository": {
     "type": "git",
